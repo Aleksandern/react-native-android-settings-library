@@ -1,0 +1,22 @@
+
+{
+  "name": "react-native-android-settings-library",
+  "version": "1.0.0",
+  "description": "It allows to open android settings in React Native",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": "Aleksandern",
+  "license": "ISC"
+  "peerDependencies": {
+    "react-native": "^0.29.0"
+  }
+}
