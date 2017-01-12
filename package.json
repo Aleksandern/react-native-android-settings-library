@@ -16,7 +16,4 @@
   ],
   "author": "Aleksandern",
   "license": "ISC"
-  "peerDependencies": {
-    "react-native": "^0.29.0"
-  }
 }
