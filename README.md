@@ -43,7 +43,7 @@ RNANAndroidSettingsLibrary.main();
 
 Show certain settings
 ```javascript
-RNANAndroidSettingsLibrary.load('ACTION_WIFI_SETTINGS');
+RNANAndroidSettingsLibrary.open('ACTION_WIFI_SETTINGS');
 ```
 
 Here are list of settings [android settings](https://developer.android.com/guide/components/intents-common.html#Settings)
