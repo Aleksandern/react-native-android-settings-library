@@ -2,6 +2,7 @@
 package com.reactlibrary.androidsettings;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.provider.Settings;
 
 import com.facebook.react.bridge.ReactApplicationContext;
@@ -68,6 +69,11 @@ public class RNANAndroidSettingsLibraryModule extends ReactContextBaseJavaModule
             break;
         case "ACTION_MEMORY_CARD_SETTINGS":
             intentCl.setAction(Settings.ACTION_MEMORY_CARD_SETTINGS);
+            break;
+        case "ACTION_APPLICATION_DETAILS_SETTINGS":
+            intentCl.setAction(Settings.ACTION_APPLICATION_DETAILS_SETTINGS);
+            Uri uri = Uri.fromParts("package", reactContext.getPackageName(), null);
+            intentCl.setData(uri);
             break;
         default:
             intentCl.setAction(Settings.ACTION_SETTINGS);
