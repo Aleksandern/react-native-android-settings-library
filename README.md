@@ -61,5 +61,6 @@ Here are list of settings [android settings](https://developer.android.com/guide
 - ACTION_LOCATION_SOURCE_SETTINGS
 - ACTION_INTERNAL_STORAGE_SETTINGS
 - ACTION_MEMORY_CARD_SETTINGS
+- ACTION_APPLICATION_DETAILS_SETTINGS
 
 
