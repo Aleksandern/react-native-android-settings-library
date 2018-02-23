@@ -67,6 +67,9 @@ public class RNANAndroidSettingsLibraryModule extends ReactContextBaseJavaModule
         case "ACTION_INTERNAL_STORAGE_SETTINGS":
             intentCl.setAction(Settings.ACTION_INTERNAL_STORAGE_SETTINGS);
             break;
+        case "ACTION_REQUEST_IGNORE_BATTERY_OPTIMIZATIONS":
+            intentCl.setAction(Settings.ACTION_REQUEST_IGNORE_BATTERY_OPTIMIZATIONS);
+            break;
         case "ACTION_MEMORY_CARD_SETTINGS":
             intentCl.setAction(Settings.ACTION_MEMORY_CARD_SETTINGS);
             break;
