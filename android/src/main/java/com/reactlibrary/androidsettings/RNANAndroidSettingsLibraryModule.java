@@ -27,6 +27,8 @@ public class RNANAndroidSettingsLibraryModule extends ReactContextBaseJavaModule
   @ReactMethod
   public void open(String type_setting) {
     Intent intentCl = new Intent();
+    Uri uri = Uri.fromParts("package", reactContext.getPackageName(), null);
+
     switch (type_setting) {
         case "ACTION_SETTINGS":
             intentCl.setAction(Settings.ACTION_SETTINGS);
@@ -69,7 +71,6 @@ public class RNANAndroidSettingsLibraryModule extends ReactContextBaseJavaModule
             break;
         case "ACTION_REQUEST_IGNORE_BATTERY_OPTIMIZATIONS":
             intentCl.setAction(Settings.ACTION_REQUEST_IGNORE_BATTERY_OPTIMIZATIONS);
-            Uri uri = Uri.fromParts("package", reactContext.getPackageName(), null);
             intentCl.setData(uri);
             break;
         case "ACTION_MEMORY_CARD_SETTINGS":
@@ -77,7 +78,6 @@ public class RNANAndroidSettingsLibraryModule extends ReactContextBaseJavaModule
             break;
         case "ACTION_APPLICATION_DETAILS_SETTINGS":
             intentCl.setAction(Settings.ACTION_APPLICATION_DETAILS_SETTINGS);
-            Uri uri = Uri.fromParts("package", reactContext.getPackageName(), null);
             intentCl.setData(uri);
             break;
         default:
