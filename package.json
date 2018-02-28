@@ -1,6 +1,6 @@
 {
   "name": "react-native-android-settings-library",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "It allows to open android settings in React Native",
   "main": "index.js",
   "scripts": {
