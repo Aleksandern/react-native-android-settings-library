@@ -14,5 +14,8 @@
     "react-native"
   ],
   "author": "Aleksandern",
-  "license": "ISC"
+  "license": "ISC",
+  "peerDependencies": {
+    "react-native": ">=0.47.0"
+  }
 }
